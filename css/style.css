@@ -60,3 +60,11 @@ header {
 	font-size: 14px;
 	font-weight: 300;
 }
+.icon{
+	display: flex;
+	margin-top: 62px;
+	margin-left: 63px;
+}
+.icon img{
+	margin-right: 28px;
+}

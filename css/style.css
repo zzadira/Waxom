@@ -1,12 +1,30 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
-.container{
+
+.container {
 	width: 1920px;
 	margin: 0 auto;
 }
-header{
-	background: url("../img/mount-bkg.png");
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/*-----------------------------------------
+              ШАПКА
+-----------------------------------------*/
+header {
+	background: url("../img/bg photo.jpg");
 	height: 1024px;
+}
+
+.logo {
+	width: 200px;
+	height: 100px;
 }

@@ -118,4 +118,14 @@ header .main a{
 	text-align: center;
 	text-transform: uppercase;
 	padding: 17px 0;
+
+}
+header .main a:hover{
+	background-color: #c7b29a;
+	border-bottom: 3px solid #736357;
+
+}
+header .main a:focus{
+	background-color: #736357;
+	border-bottom: none;
 }

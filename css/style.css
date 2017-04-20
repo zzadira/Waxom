@@ -59,6 +59,10 @@ header {
 	color:  #fff;
 	font-size: 14px;
 	font-weight: 300;
+	transition: 0.5s;
+}
+.menu li a:hover{
+	color: #c7b29a;;
 }
 .icon{
 	display: flex;

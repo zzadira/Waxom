@@ -1,3 +1,14 @@
+/* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/raleway */
+@import "http://fonts.fontstorage.com/import/raleway.css";
+/*
+	Raleway, 100, 100 italic, 200, 200 italic, 300, 300 italic, 400, 400 italic, 500, 500 italic, 600, 600 italic, 700, 700 italic, 800, 800 italic, 900, 900 italic
+*/
+/* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/montserrat */
+@import "http://fonts.fontstorage.com/import/montserrat.css";
+/*
+	Montserrat, 400, 700
+*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -22,9 +33,38 @@ ul {
 header {
 	background: url("../img/bg photo.jpg");
 	height: 1024px;
+	display: flex;
 }
-
-.logo {
-	width: 200px;
-	height: 100px;
+.logo{
+	box-sizing: border-box;
+	margin-left: 376px;
+	margin-top: 40px;
+}
+.waxom{
+	 font-family: Raleway;
+	 color:  #ffffff;
+	 font-size: 34px;
+	 font-weight: 400;
+	 position: relative;
+	bottom: 15px;
+ }
+.menu ul{
+	display: flex;
+	margin-left: 219px;
+	margin-top: 62px;
+}
+.menu li a{
+	margin-right: 30px;
+	font-family: Montserrat;
+	color:  #fff;
+	font-size: 14px;
+	font-weight: 300;
+}
+.icon{
+	display: flex;
+	margin-top: 62px;
+	margin-left: 63px;
+}
+.icon img{
+	margin-right: 28px;
 }

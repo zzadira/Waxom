@@ -140,12 +140,15 @@ header .main a:focus{
 	display: flex;
 	padding-top: 80px;
 	justify-content: center;
+	align-items: baseline;
 }
 .top img{
 	display: block;
+	margin: 0;
+	padding: 0;
 }
-.design{
-	width: 270px;
+.top article{
+	width: 330px;
 	text-align: center;
 
 }
@@ -155,6 +158,7 @@ header .main a:focus{
 	font-size: 22px; /* Приближение из-за подстановки шрифтов */
 	font-weight: 600;
 	text-align: center;
+
 }
 .top p{
 	font-family: Montserrat;
@@ -164,6 +168,7 @@ header .main a:focus{
 	line-height: 24px; /* Приближение из-за подстановки шрифтов */
 	text-align: center;
 	margin-top: 20px;
+	margin: 0 30px;
 }
 .top img{
 	margin: 0 auto;

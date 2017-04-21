@@ -133,3 +133,39 @@ header .main a:focus{
 	background-color: #736357;
 	border-bottom: none;
 }
+/*-----------------------------------------
+            REALIZATION
+-----------------------------------------*/
+.top{
+	display: flex;
+	padding-top: 80px;
+	justify-content: center;
+}
+.top img{
+	display: block;
+}
+.design{
+	width: 270px;
+	text-align: center;
+
+}
+.top a{
+	font-family: Raleway;
+	color: #555555;
+	font-size: 22px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 600;
+	text-align: center;
+}
+.top p{
+	font-family: Montserrat;
+	color: #8c8c8c;
+	font-size: 14px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 24px; /* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	margin-top: 20px;
+}
+.top img{
+	margin: 0 auto;
+	margin-bottom: 30px;
+}

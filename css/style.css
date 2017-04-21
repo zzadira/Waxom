@@ -146,6 +146,11 @@ header .main a:focus{
 	display: block;
 	margin: 0;
 	padding: 0;
+	transition: 0.8s;
+
+}
+.top img:hover a{
+	color:  #c7b299;
 }
 .top article{
 	width: 330px;
@@ -167,10 +172,19 @@ header .main a:focus{
 	font-weight: 300;
 	line-height: 24px; /* Приближение из-за подстановки шрифтов */
 	text-align: center;
-	margin-top: 20px;
-	margin: 0 30px;
+	margin: 30px 30px;
 }
 .top img{
 	margin: 0 auto;
 	margin-bottom: 30px;
+}
+.top img:hover{
+	transform: rotate(180deg);
+
+}
+.top a:hover{
+	color:  #c7b299;
+}
+.top a:hover img{
+	transform: rotate(180deg);
 }

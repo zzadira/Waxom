@@ -393,6 +393,7 @@ REALIZATION MID
 	display: flex;
 	width: 1170px;
 	justify-content: space-between;
+	align-content: space-between;
 	flex-wrap: wrap;
 	margin: 40px auto;
 
@@ -433,6 +434,7 @@ REALIZATION MID
 	padding-left: 28px;
 	box-sizing: border-box;
 	position: relative;
+	margin-bottom: 30px;
 }
 
 .photo2 {
@@ -442,6 +444,7 @@ REALIZATION MID
 	background-color: #fbfaf8;
 	padding-left: 28px;
 	box-sizing: border-box;
+	margin-bottom: 30px;
 }
 .photo3 {
 	width: 370px;
@@ -450,6 +453,7 @@ REALIZATION MID
 	background-color: #fbfaf8;
 	padding-left: 28px;
 	box-sizing: border-box;
+	margin-bottom: 30px;
 }
 .photo4 {
 	width: 370px;

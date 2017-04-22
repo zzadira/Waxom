@@ -387,3 +387,7 @@ REALIZATION MID
 	text-align: center;
 	margin-right: 10px;
 }
+.project-sort a:hover{
+	background-color:  #998675;
+	color:  #ffffff;
+}

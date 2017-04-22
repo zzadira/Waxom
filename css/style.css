@@ -475,5 +475,24 @@ REALIZATION MID
 	padding-left: 28px;
 	box-sizing: border-box;
 }
-
-
+.img-group a{
+	border-radius: 3px;
+	background-color:  #998675;
+	width: 170px;
+	height: 50px;
+	font-family: Raleway;
+	color:  #ffffff;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 50px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	text-transform: uppercase;
+	margin: 40px auto;
+	border-bottom: 3px solid #736357;
+}
+.img-group a:hover{
+	background-color: #c7b29a;
+}
+.img-group a:focus{
+	border-bottom: none;
+}

@@ -84,7 +84,7 @@ header {
 }
 
 .icon img:hover {
-	transform: rotate(180deg);
+	transform: scale(2,2);
 }
 
 header .main {

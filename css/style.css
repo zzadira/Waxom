@@ -389,3 +389,32 @@ REALIZATION MID
 	background-color:  #998675;
 	color:  #ffffff;
 }
+.img-group{
+	display: flex;
+}
+.img-group h4{
+	font-family: Raleway;
+	color:  #af9271;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 600;
+	text-align: left;
+	margin-top: 264px;
+}
+.img-group p{
+	font-family: Montserrat;
+	color:  #d1d1d1;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 20px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	margin-top: -15px;
+
+}
+.photo1{
+	width: 370px;
+	height: 337px;
+	background: url("../img/photo1.png") no-repeat;
+	background-color:  #fbfaf8;
+padding-left: 28px;
+box-sizing: border-box;
+

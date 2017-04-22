@@ -204,18 +204,15 @@ header .main a:focus {
 	margin-bottom: 30px;
 }
 
-.top img:hover {
-	transform: rotate(180deg);
-
-}
-
 .top a:hover {
 	color: #c7b299;
 }
 
 .top a:hover img {
-	transform: rotate(180deg);
+	transform: rotate(380deg);
+	transform: scale(1.5,1.5);
 }
+
 
 /*-----------------------------------------
 REALIZATION MID
@@ -386,6 +383,7 @@ REALIZATION MID
 	line-height: 21px;/* Приближение из-за подстановки шрифтов */
 	text-align: center;
 	margin-right: 10px;
+	transition: 0.7s;
 }
 .project-sort a:hover{
 	background-color:  #998675;

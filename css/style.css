@@ -215,6 +215,7 @@ REALIZATION MID
 .mid-img {
 	display: flex;
 	align-items: flex-end;
+	margin-top: 40px;
 }
 .br-l{
 	width: 770px;

@@ -408,13 +408,25 @@ REALIZATION MID
 	line-height: 20px;/* Приближение из-за подстановки шрифтов */
 	text-align: left;
 	margin-top: -15px;
-
 }
-.photo1{
+.img-group div:hover {
+
+	background-color: #362f2d;
+}
+
+.img-group div:hover h4{
+	color:  #ffffff;
+}
+.img-group div:hover p{
+	color:  #c7b299;
+}
+
+.photo1 {
 	width: 370px;
 	height: 337px;
 	background: url("../img/photo1.png") no-repeat;
-	background-color:  #fbfaf8;
-padding-left: 28px;
-box-sizing: border-box;
+	background-color: #fbfaf8;
+	padding-left: 28px;
+	box-sizing: border-box;
+}
 

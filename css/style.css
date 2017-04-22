@@ -84,7 +84,7 @@ header {
 }
 
 .icon img:hover {
-	transform: rotate(180deg);
+	transform: scale(2,2);
 }
 
 header .main {
@@ -204,18 +204,15 @@ header .main a:focus {
 	margin-bottom: 30px;
 }
 
-.top img:hover {
-	transform: rotate(180deg);
-
-}
-
 .top a:hover {
 	color: #c7b299;
 }
 
 .top a:hover img {
-	transform: rotate(180deg);
+	transform: rotate(380deg);
+	transform: scale(1.5,1.5);
 }
+
 
 /*-----------------------------------------
 REALIZATION MID
@@ -363,4 +360,139 @@ REALIZATION MID
 	font-weight: 300;
 	line-height: 28px; /* Приближение из-за подстановки шрифтов */
 	text-align: center;
+}
+.project-sort{
+	display: flex;
+	margin: 40px auto;
+	justify-content: center;
+}
+.project-sort a{
+	display: block;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 1px;
+	border-color:  #ebebeb;
+	box-sizing: border-box;
+	background-color:  rgba(17, 17, 17, 0);
+	height: 32px;
+	padding: 3px 25px;
+	font-family: Montserrat;
+	color:  #8c8c8c;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 21px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	margin-right: 10px;
+	transition: 0.7s;
+}
+.project-sort a:hover{
+	background-color:  #998675;
+	color:  #ffffff;
+}
+.img-group{
+	display: flex;
+	width: 1170px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 40px auto;
+
+}
+.img-group h4{
+	font-family: Raleway;
+	color:  #af9271;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 600;
+	text-align: left;
+	margin-top: 264px;
+}
+.img-group p{
+	font-family: Montserrat;
+	color:  #d1d1d1;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 20px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	margin-top: -15px;
+}
+.img-group div:hover {
+	background-color: #362f2d;
+}
+
+.img-group div:hover h4{
+	color:  #ffffff;
+}
+.img-group div:hover p{
+	color:  #c7b299;
+}
+
+.photo1 {
+	width: 370px;
+	height: 337px;
+	background: url("../img/photo1.png") no-repeat;
+	background-color: #fbfaf8;
+	padding-left: 28px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.photo2 {
+	width: 370px;
+	height: 337px;
+	background: url("../img/photo2.png") no-repeat;
+	background-color: #fbfaf8;
+	padding-left: 28px;
+	box-sizing: border-box;
+}
+.photo3 {
+	width: 370px;
+	height: 337px;
+	background: url("../img/photo3.png") no-repeat;
+	background-color: #fbfaf8;
+	padding-left: 28px;
+	box-sizing: border-box;
+}
+.photo4 {
+	width: 370px;
+	height: 337px;
+	background: url("../img/photo4.png") no-repeat;
+	background-color: #fbfaf8;
+	padding-left: 28px;
+	box-sizing: border-box;
+}
+.photo5 {
+	width: 370px;
+	height: 337px;
+	background: url("../img/photo5.png") no-repeat;
+	background-color: #fbfaf8;
+	padding-left: 28px;
+	box-sizing: border-box;
+}
+.photo6 {
+	width: 370px;
+	height: 337px;
+	background: url("../img/photo6.png") no-repeat;
+	background-color: #fbfaf8;
+	padding-left: 28px;
+	box-sizing: border-box;
+}
+.img-group a{
+	border-radius: 3px;
+	background-color:  #998675;
+	width: 170px;
+	height: 50px;
+	font-family: Raleway;
+	color:  #ffffff;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 50px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	text-transform: uppercase;
+	margin: 40px auto;
+	border-bottom: 3px solid #736357;
+}
+.img-group a:hover{
+	background-color: #c7b29a;
+}
+.img-group a:focus{
+	border-bottom: none;
 }

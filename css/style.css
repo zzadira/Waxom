@@ -204,15 +204,15 @@ header .main a:focus {
 	margin-bottom: 30px;
 }
 
-.top a:hover {
+
+.top article:hover img {
+	transform: rotate(380deg)
+	 scale(1.5,1.5);
+	border-bottom: none;
+}
+.top article:hover a{
 	color: #c7b299;
 }
-
-.top a:hover img {
-	transform: rotate(380deg);
-	transform: scale(1.5,1.5);
-}
-
 
 /*-----------------------------------------
 REALIZATION MID

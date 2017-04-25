@@ -415,9 +415,9 @@ REALIZATION MID
 	text-align: left;
 	margin-top: -15px;
 }
-.img-group div:hover {
-	background-color: #362f2d;
-}
+/*.img-group div:hover {*/
+	/*background-color: #362f2d;*/
+/*}*/
 
 .img-group div:hover h4{
 	color:  #ffffff;
@@ -435,6 +435,9 @@ REALIZATION MID
 	box-sizing: border-box;
 	position: relative;
 	margin-bottom: 30px;
+}
+.photo1:hover{
+	background: url("../img/photo1.png") no-repeat,url("../img/bg photo.png");
 }
 
 .photo2 {
@@ -494,9 +497,4 @@ REALIZATION MID
 	margin: 40px auto;
 	border-bottom: 3px solid #736357;
 }
-.img-group a:hover{
-	background-color: #c7b29a;
-}
-.img-group a:focus{
-	border-bottom: none;
-}
+
